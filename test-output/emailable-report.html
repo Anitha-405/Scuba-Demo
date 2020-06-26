@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Parallel TestSuite</th></tr>
+<tr><td><a href="#t0">Test 1</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">125</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test 2</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">142</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Parallel TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test 1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.internetapp.tests.TestCalculator</td><td><a href="#m0">Substration</a></td><td rowspan="1">1593154116328</td><td rowspan="1">24</td></tr><tr class="passedeven"><td><a href="#m1">add</a></td><td rowspan="1">1593154116328</td><td rowspan="1">24</td></tr><tr class="passedeven"><td><a href="#m2">division</a></td><td rowspan="1">1593154116359</td><td rowspan="1">10</td></tr><tr class="passedeven"><td><a href="#m3">multiplication</a></td><td rowspan="1">1593154116360</td><td rowspan="1">6</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test 2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.internetapp.tests.TestCalculator2</td><td><a href="#m4">exponent</a></td><td rowspan="1">1593154116511</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test 2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.internetapp.tests.TestCalculator2</td><td><a href="#m5">Sum</a></td><td rowspan="2">1593154116515</td><td rowspan="2">2</td></tr><tr class="passedeven"><td><a href="#m6">Sum</a></td></tr><tr class="passedeven"><td><a href="#m7">inverse</a></td><td rowspan="1">1593154116516</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m8">negative</a></td><td rowspan="1">1593154116520</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>Test 1</h2><h3 id="m0">com.internetapp.tests.TestCalculator#Substration</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestNG_ReportsAndLogs -> Subsration</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.internetapp.tests.TestCalculator#add</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestNG_ReportsAndLogs -> addition</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.internetapp.tests.TestCalculator#division</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestNG_ReportsAndLogs -> division</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.internetapp.tests.TestCalculator#multiplication</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestNG_ReportsAndLogs -> multliplication</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test 2</h2><h3 id="m4">com.internetapp.tests.TestCalculator2#exponent</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
+Parameter &apos;testData&apos; is required by @Test on method exponent but has not been marked @Optional or defined
+in C:\Users\anithak\Documents\NewTAFUpdated (2)\NewTAFUpdated\src\test\java\com\internetapp\tests\testng-parallel.xml
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 11 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.internetapp.tests.TestCalculator2#Sum</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>2</td><td>3</td><td>5</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">TestNG_ReportsAndLogs -> sum of two digits using data-provider</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.internetapp.tests.TestCalculator2#Sum</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>5</td><td>4</td><td>9</td></tr><tr><th colspan="3">Messages</th></tr><tr><td colspan="3"><div class="messages">TestNG_ReportsAndLogs -> sum of two digits using data-provider</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.internetapp.tests.TestCalculator2#inverse</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestNG_ReportsAndLogs -> Inverse</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.internetapp.tests.TestCalculator2#negative</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">TestNG_ReportsAndLogs -> negative</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

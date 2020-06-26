@@ -1,0 +1,27 @@
+Request : PUT
+URI : https://reqres.in/api/users/4
+Headers : 
+Accept=*/*
+Content-Type=application/json; charset=UTF-8
+Params : 
+Response : 
+HTTP/1.1 200 OK
+Headers : 
+Date=Wed, 24 Jun 2020 06:59:39 GMT
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Set-Cookie=__cfduid=d53b442f0b08f5e8c215c5fbb2f4c9c061592981979; expires=Fri, 24-Jul-20 06:59:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Etag=W/"37-svOra0KGPzGx7jZaYHUedn08BaM"
+Via=1.1 vegur
+CF-Cache-Status=DYNAMIC
+cf-request-id=0386b918420000e3369026f200000001
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Vary=Accept-Encoding
+Server=cloudflare
+CF-RAY=5a84913a0c8ae336-CCU
+Content-Encoding=gzip
+Body : 
+{"name":"Aarna","updatedAt":"2020-06-24T06:59:39.472Z"}

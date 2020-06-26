@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Subsration]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> addition]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> multliplication]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> division]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> sum of two digits using data-provider]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> Inverse]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> negative]]>
+    </line>
+    <line>
+      <![CDATA[TestNG_ReportsAndLogs -> sum of two digits using data-provider]]>
+    </line>
+  </reporter-output>
+  <suite name="Parallel TestSuite" duration-ms="276" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+    <groups>
+      <group name="division">
+        <method signature="TestCalculator.division()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="division" class="com.internetapp.tests.TestCalculator"/>
+      </group> <!-- division -->
+      <group name="Addition">
+        <method signature="TestCalculator.add()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="add" class="com.internetapp.tests.TestCalculator"/>
+      </group> <!-- Addition -->
+      <group name="multiplication">
+        <method signature="TestCalculator.multiplication()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="multiplication" class="com.internetapp.tests.TestCalculator"/>
+      </group> <!-- multiplication -->
+      <group name="Substration">
+        <method signature="TestCalculator.Substration()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="Substration" class="com.internetapp.tests.TestCalculator"/>
+      </group> <!-- Substration -->
+    </groups>
+    <test name="Test 1" duration-ms="125" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+      <class name="com.internetapp.tests.TestCalculator">
+        <test-method status="PASS" signature="Substration()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="Substration" duration-ms="24" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Subsration]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Substration -->
+        <test-method status="PASS" signature="add()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="add" duration-ms="24" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> addition]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="division()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="division" duration-ms="10" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> division]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- division -->
+        <test-method status="PASS" signature="multiplication()[pri:0, instance:com.internetapp.tests.TestCalculator@3aeaafa6]" name="multiplication" duration-ms="6" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> multliplication]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiplication -->
+      </class> <!-- com.internetapp.tests.TestCalculator -->
+    </test> <!-- Test 1 -->
+    <test name="Test 2" duration-ms="17" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+      <class name="com.internetapp.tests.TestCalculator2">
+        <test-method status="FAIL" signature="exponent(java.lang.String)[pri:0, instance:com.internetapp.tests.TestCalculator2@2a70a3d8]" name="exponent" duration-ms="0" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'testData' is required by @Test on method exponent but has not been marked @Optional or defined
+in C:\Users\anithak\Documents\NewTAFUpdated (2)\NewTAFUpdated\src\test\java\com\internetapp\tests\testng-parallel.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'testData' is required by @Test on method exponent but has not been marked @Optional or defined
+in C:\Users\anithak\Documents\NewTAFUpdated (2)\NewTAFUpdated\src\test\java\com\internetapp\tests\testng-parallel.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exponent -->
+        <test-method status="PASS" signature="Sum(int, int, int)[pri:0, instance:com.internetapp.tests.TestCalculator2@2a70a3d8]" name="Sum" duration-ms="2" started-at="2020-06-26T12:18:36 IST" data-provider="data-provider" finished-at="2020-06-26T12:18:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> sum of two digits using data-provider]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sum -->
+        <test-method status="PASS" signature="inverse()[pri:0, instance:com.internetapp.tests.TestCalculator2@2a70a3d8]" name="inverse" duration-ms="2" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> Inverse]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="negative()[pri:0, instance:com.internetapp.tests.TestCalculator2@2a70a3d8]" name="negative" duration-ms="2" started-at="2020-06-26T12:18:36 IST" finished-at="2020-06-26T12:18:36 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> negative]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negative -->
+        <test-method status="PASS" signature="Sum(int, int, int)[pri:0, instance:com.internetapp.tests.TestCalculator2@2a70a3d8]" name="Sum" duration-ms="3" started-at="2020-06-26T12:18:36 IST" data-provider="data-provider" finished-at="2020-06-26T12:18:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> sum of two digits using data-provider]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Sum -->
+      </class> <!-- com.internetapp.tests.TestCalculator2 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Parallel TestSuite -->
+</testng-results>

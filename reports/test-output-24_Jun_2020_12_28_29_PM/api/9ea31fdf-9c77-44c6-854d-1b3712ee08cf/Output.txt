@@ -1,0 +1,23 @@
+Request : DELETE
+URI : https://reqres.in/api/users/5
+Headers : 
+Accept=*/*
+Params : 
+Response : 
+HTTP/1.1 204 No Content
+Headers : 
+Date=Wed, 24 Jun 2020 06:59:41 GMT
+Content-Length=0
+Connection=keep-alive
+Set-Cookie=__cfduid=db47b3245b358f111b78b22235a26eed51592981981; expires=Fri, 24-Jul-20 06:59:41 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By=Express
+Access-Control-Allow-Origin=*
+Etag=W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via=1.1 vegur
+CF-Cache-Status=DYNAMIC
+cf-request-id=0386b921640000e30a682c0200000001
+Expect-CT=max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server=cloudflare
+CF-RAY=5a849148ad86e30a-CCU
+Body : 
+
